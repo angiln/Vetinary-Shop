@@ -1,0 +1,44 @@
+body {
+    background-color:#D5E6EF;
+    
+}
+
+.error
+{
+    color: red;
+    margin: 2%;
+    padding: 1.5%;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea
+{
+    width: 75%;
+    padding: 2%;
+    margin-bottom: 4%;
+    margin: 2%;
+}
+
+input[type="submit"]
+{
+    width: 75%;
+    padding: 2%;
+    background-color: #4CAF50 ;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin: 5%;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 3px 8px;
+
+}
+input[type="submit"]:hover
+{
+    background-color: #45a049;
+}

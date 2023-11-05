@@ -1,0 +1,12 @@
+<?php
+session_start();
+include('db.php');
+if(!isset($_SESSION['username']))
+{
+header("location:home.php");
+} 
+else
+{
+   header("location:index.php");	
+}
+?>
