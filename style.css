@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:#D5E6EF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.nav-links a
+{
+    color: rgb(0, 0, 0); /* defines text color */
+    
+}
+.nav-links li a:hover
+{
+    background-color: #f0eeff;
+    /* background-image: linear-gradient(90deg,rgb(217, 155, 155), rgb(69, 183, 237)); */
+    /* color: #D5E6EF; */ 
+}
+.logo
+{
+    height: auto;
+    width: auto;
+}
+.menu
+{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+
+}
+menu li{
+    padding: 5px 15px;
+}
+.services
+{
+    position:relative;
+}
+.img1
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    margin-top: 6%;
+    float: right;
+}
+.img2
+{
+    margin-top: 35px;
+    margin-left: 20px;
+    float: left;
+    display: flex;
+
+}
+.img3
+{
+    margin: 0px;
+    display: flex;
+    height: 50px;
+    width: 1527px;
+}
+
+.heading
+{
+    justify-content: center;
+    display: flex;
+    align-items:  center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-top: 6%;
+}
+.images
+{
+    display: flex;
+    /* margin-top: 1%; */
+    align-items: center;
+    position: relative;
+    margin: 1%;
+    padding: 1%;
+
+}
+.img4
+{
+  
+    display: flex;
+    position: relative;
+    margin: 1%;
+    padding: 1%;
+    align-items: center;
+
+
+}
+.img5
+{
+  
+    display: flex;
+    align-items: center;
+    position: relative;
+    float: inherit;
+    z-index: 1;
+    margin: 1%;
+    padding: 1%;
+
+}
+/* .images1
+{
+    display: flex;
+    margin-top: 55px;
+    align-items: center;
+    margin-left: 32%;
+  height: 300;
+  width: 300;
+
+} */
+.heading1
+{
+    justify-content: center;
+    display: flex;
+    align-items:  center;
+    font-family: 'jokerman';
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(59, 1, 1);
+}
+
+.heading2
+{
+    justify-content: center;
+    display: flex;
+    align-items:  center;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #306489;
+}
+.normal
+{
+    justify-content: center;
+    display: flex;
+    align-items:  center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    /* color: #306489; */
+    color: grey;
+    margin-bottom: 1%;
+}
+
+
+.service1
+{
+    margin-top: 20px;
+    margin-left: 4%;
+    font-size: 25px;
+    font-family: Arial;
+}
+.terms {
+
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    font-weight: lighter;
+    margin: 1%;
+    padding:3%;
+    border: 3%;
+    font-size: 16px;
+    font-family: Calibri;
+    align-items: left;
+    justify-content: left;
+  }
+  
+  ul.terms {
+    margin-left: 20px;
+    padding-left: 0;
+    list-style-type: disc;
+  }
+  
+ li {
+  
+    margin-bottom: 10px;
+}
+.about
+{
+    display: flex;
+    margin: 1%;
+    padding: 3%;
+    border: 3%;
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'calibri';
+   justify-content: left;
+}
+.example img
+{
+    margin-top: 1%;
+    max-width: 100%;
+}
+  
+.example::after
+ {
+    content: "We improve the standard of your life";
+    position: absolute;
+    top: 28%;
+    left: 20%;
+    font-family: Calibri;
+    font-size: 50px;
+    color: #D5E6EF;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .contact {
+    
+    display: inline;
+    justify-content:right;
+    float: right;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  map.p {
+    margin-top: auto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+map.heading2{
+    text-align: center;
+    margin: 5%;
+}
