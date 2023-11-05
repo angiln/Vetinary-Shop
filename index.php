@@ -139,7 +139,7 @@ include'bubbles.php';
     <div class="container">
         <div class="text">
             <p class="t1">
-                Busy Schedule?<br>
+               Hello angil<br>
                 No time for Laundry!!!<br><br>
             </p>
             <p class="t2">We are here to <br> help you.</p>
